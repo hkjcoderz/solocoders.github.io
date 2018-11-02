@@ -1,0 +1,21 @@
+﻿
+#slidebox{
+margin: 0 auto;
+width:1200px;
+height:400px;
+overflow:hidden;   
+ 
+animation:slider 20s;
+position:relative;
+background-size:1500px 400px;
+animation-iteration-count: infinite;
+animation-direction: alternate;     
+}
+@keyframes slider{
+0%{background-image:url("a.jpg");}
+20%{background-image:url("b.jpg");}
+40%{background-image:url("c.jpg");}
+60%{background-image:url("d.jpg");}
+80%{background-image:url("a.jpg");}
+100%{background-image:url("c.jpg");}
+}
